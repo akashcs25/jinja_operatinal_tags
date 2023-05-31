@@ -20,5 +20,6 @@ from app1.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('web/',web,name='web')
+    path('conditional/',conditional,name='conditional'),
+    path('loops/',loops,name='loops')
 ]
